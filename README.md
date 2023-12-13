@@ -3,6 +3,16 @@ css snippet to render bulleted list items as cards in Reading View (live preview
 
 ---
 
+## Example Usage
+
+  source view  
+  <img src="./docs/bullet-cards--example--source-view.jpg" width="500">
+
+  reading view  
+  <img src="./docs/bullet-cards--example--reading-view.jpg" width="500"> 
+
+---
+
 ## Installation
 
 - Install [`obsidian-element-enhancer`](https://github.com/jparkerweb/obsidian-element-enhancer) script to allow custom classes to be injected into the Reading View.
@@ -63,13 +73,3 @@ The following modifer classes can be mixed and matched to achive differnt looks:
 
 #### card border
 - `bullet-cards--no-border`
-
----
-
-## Example Usage
-
-  source view  
-  <img src="./docs/bullet-cards--example--source-view.jpg" width="500">
-
-  reading view  
-  <img src="./docs/bullet-cards--example--reading-view.jpg" width="500"> 
