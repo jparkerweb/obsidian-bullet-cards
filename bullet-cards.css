@@ -1,0 +1,106 @@
+/* --------------------------------------- */
+/* -- make each bullet appear as a card -- */
+/* -------------------------------------------------------- */
+/* -- class: bullet-cards, bullet-cards--<modifier>, ... -- */
+/* -------------------------------------------------------- */
+.bullet-cards .list-bullet { display: none; }
+.bullet-cards ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+.bullet-cards ul a,
+.bullet-cards ul:visited,
+.bullet-cards ul:hover {
+    text-decoration: none !important;
+}
+.bullet-cards li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    padding: 2px;
+    min-height: 50px;
+    border: 1px solid;
+	border-radius: 10px;
+	border-color: var(--table-border-color);
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    min-width: 200px;
+    max-width: 200px;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+    user-select: none;
+    word-break: break-word;
+}
+.bullet-cards li:hover { box-shadow: unset; }
+.bullet-cards li a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: background 300ms ease-in-out;
+}
+.bullet-cards li a:hover::after {
+    background-color: var(--text-selection);
+    box-shadow: -40px 0 0 var(--text-selection);
+    cursor: pointer;
+}
+.bullet-cards li .internal-link.is-unresolved {
+    /* opacity: .6; */
+	color: var(--link-unresolved-color);
+	opacity: var(--link-unresolved-opacity);
+	filter: var(--link-unresolved-filter);
+	text-decoration-style: var(--link-unresolved-decoration-style);
+	text-decoration-color: var(--link-unresolved-decoration-color);
+}
+.bullet-cards li .internal-link.is-unresolved:hover {
+    opacity: 1;
+	color: var(--link-color-hover);
+	text-decoration-color: var(--link-color-hover);
+	text-decoration-line: var(--link-decoration-hover);
+}
+.bullet-cards li .internal-link.is-unresolved:hover::after { cursor: copy; }
+.bullet-cards li .internal-link.is-unresolved::before {
+    content: "+ ";
+    opacity: .5;
+}
+
+/* --------------- */
+/* -- modifiers -- */
+/* --------------- */
+.bullet-cards.bullet-cards--centered ul { justify-content: center; }
+.bullet-cards.bullet-cards--left ul { justify-content: flex-start; }
+.bullet-cards.bullet-cards--right ul { justify-content: flex-end; }
+.bullet-cards--no-width li { min-width: 100px !important; max-width: unset !important; padding-left: 10px; padding-right: 10px;}
+.bullet-cards--width1 li { min-width: 150px !important; max-width: 150px !important; }
+.bullet-cards--width2 li { min-width: 175px !important; max-width: 175px !important; }
+.bullet-cards--width3 li { min-width: 200px !important; max-width: 200px !important; }
+.bullet-cards--width4 li { min-width: 225px !important; max-width: 225px !important; }
+.bullet-cards--width5 li { min-width: 250px !important; max-width: 250px !important; }
+.bullet-cards--width6 li { min-width: 300px !important; max-width: 300px !important; }
+.bullet-cards--width7 li { min-width: 325px !important; max-width: 325px !important; }
+.bullet-cards--width8 li { min-width: 350px !important; max-width: 350px !important; }
+.bullet-cards--width9 li { min-width: 375px !important; max-width: 375px !important; }
+.bullet-cards--width10 li { min-width: 400px !important; max-width: 400px !important; }
+.bullet-cards--vertical-content li { display: flex; flex-direction: column; align-items: flex-start; }
+.bullet-cards--content-left li { display: flex; align-items: flex-start; justify-content: center; text-align: left; }
+.bullet-cards--content-centered li { display: flex; align-items: center; justify-content: center; text-align: center; }
+.bullet-cards--content-right li { display: flex; align-items: flex-end; justify-content: center; text-align: right; }
+.bullet-cards--padding1 li { padding: 10px !important; }
+.bullet-cards--padding2 li { padding: 15px !important; }
+.bullet-cards--padding3 li { padding: 20px !important; }
+.bullet-cards--padding4 li { padding: 25px !important; }
+.bullet-cards--padding5 li { padding: 30px !important; }
+.bullet-cards--vertical-padding1 li { padding-top: 10px !important; padding-bottom: 10px !important; }
+.bullet-cards--vertical-padding2 li { padding-top: 15px !important; padding-bottom: 15px !important; }
+.bullet-cards--vertical-padding3 li { padding-top: 20px !important; padding-bottom: 20px !important; }
+.bullet-cards--vertical-padding4 li { padding-top: 25px !important; padding-bottom: 25px !important; }
+.bullet-cards--vertical-padding5 li { padding-top: 30px !important; padding-bottom: 30px !important; }
+.bullet-cards--no-border li { border: none !important; }
