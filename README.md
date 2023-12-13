@@ -24,9 +24,9 @@ css snippet to render bulleted list items as cards in Reading View (live preview
 
 ## Usage
 
-- using the format specified in [`obsidian-element-enhancer`](https://github.com/jparkerweb/obsidian-element-enhancer), add a div with the `buttet-cards` custom class (and optional modifier classes):
+- using the format specified in [`obsidian-element-enhancer`](https://github.com/jparkerweb/obsidian-element-enhancer), add a div with the `buttet-cards` custom class (and optional modifier classes):  
   `<div class="🌟 bullet-cards bullet-cards--centered bullet-cards--width3"></div>`
-- don't forget to add the following to the last line of your note (as spefiied in [`obsidian-element-enhancer`](https://github.com/jparkerweb/obsidian-element-enhancer))
+- don't forget to add the following to the last line of your note (as spefiied in [`obsidian-element-enhancer`](https://github.com/jparkerweb/obsidian-element-enhancer))  
   `$= await dv.view("= scripts/obsidian-element-enhancer", "🌟")`
 
 ### Modifier Classes
