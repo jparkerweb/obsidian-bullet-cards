@@ -1,4 +1,4 @@
-# ⏹ obsidian-bullet-cards
+# ⏹ Obsidian Bullet Cards
 css snippet to render bulleted list items as cards in Reading View (live preview not supported)
 
 ---
