@@ -73,3 +73,17 @@ The following modifer classes can be mixed and matched to achive differnt looks:
 
 #### card border
 - `bullet-cards--no-border`
+
+---
+
+_note: live preview is not supported_
+
+---
+
+### My Obsidian GitHub Projects
+
+- 🚩 [Obsidian Custom Banner Image](https://github.com/jparkerweb/obsidian-custom-banner-image)
+- 🦶 [Obsidian Rich Foot](https://github.com/jparkerweb/obsidian-rich-foot)
+- 🌅 [Obsidian Image From Field](https://github.com/jparkerweb/obsidian-image-from-field/blob/main/README.md)
+- 🌟 [Obsidian Element Enhancer](https://github.com/jparkerweb/obsidian-element-enhancer)
+- ⏹ [Obsidian Bullet Cards](https://github.com/jparkerweb/obsidian-bullet-cards)
