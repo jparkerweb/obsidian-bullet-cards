@@ -39,7 +39,8 @@
 }
 .bullet-cards li:hover { box-shadow: unset; }
 .bullet-cards li a {
-    padding: 10px;
+    padding-left: 7px !important;
+    padding-right: 7px !important;
 }
 .bullet-cards li a::after {
     content: '';
