@@ -38,6 +38,9 @@
     word-break: break-word;
 }
 .bullet-cards li:hover { box-shadow: unset; }
+.bullet-cards li a {
+    padding: 10px;
+}
 .bullet-cards li a::after {
     content: '';
     position: absolute;
@@ -78,7 +81,7 @@
 .bullet-cards.bullet-cards--centered ul { justify-content: center; }
 .bullet-cards.bullet-cards--left ul { justify-content: flex-start; }
 .bullet-cards.bullet-cards--right ul { justify-content: flex-end; }
-.bullet-cards--no-width li { min-width: 100px !important; max-width: unset !important; padding-left: 10px; padding-right: 10px;}
+.bullet-cards--no-width li { min-width: 150px !important; max-width: unset !important; padding-left: 10px; padding-right: 10px;}
 .bullet-cards--width1 li { min-width: 150px !important; max-width: 150px !important; }
 .bullet-cards--width2 li { min-width: 175px !important; max-width: 175px !important; }
 .bullet-cards--width3 li { min-width: 200px !important; max-width: 200px !important; }
