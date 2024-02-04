@@ -36,6 +36,7 @@ The following modifer classes can be mixed and matched to achive differnt looks:
 #### alignment of cards
 
 - `bullet-cards--centered`
+- `bullet-cards--justified`
 - `bullet-cards--left`
 - `bullet-cards--right`
 
