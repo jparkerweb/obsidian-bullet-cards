@@ -80,6 +80,7 @@
 /* -- modifiers -- */
 /* --------------- */
 .bullet-cards.bullet-cards--centered ul { justify-content: center; }
+.bullet-cards.bullet-cards--justified ul { justify-content: space-between; }
 .bullet-cards.bullet-cards--left ul { justify-content: flex-start; }
 .bullet-cards.bullet-cards--right ul { justify-content: flex-end; }
 .bullet-cards--no-width li { min-width: 150px !important; max-width: unset !important; padding-left: 10px; padding-right: 10px;}
