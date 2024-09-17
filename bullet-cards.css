@@ -82,14 +82,19 @@
 .bullet-cards.bullet-cards--vertical li {
     flex-flow: wrap;
     justify-content: flex-start;
+    align-items: flex-start;
     text-align: left;
     padding: 20px;
 }
-
+.bullet-cards.bullet-cards--vertical li > a {
+    margin-bottom: 5px;
+}   
+/* hide br */
+.bullet-cards.bullet-cards--vertical li br { display: none; }
 /* Ensure that text after the first br starts a new line */
-.bullet-cards li br + * {
+.bullet-cards.bullet-cards--vertical li br + * {
     display: block;
-    margin-top: 5px;
+    margin-top: 0;
     text-align: left;
 }
 
