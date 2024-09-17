@@ -33,6 +33,9 @@ css snippet to render bulleted list items as cards in Reading View (live preview
 
 The following modifer classes can be mixed and matched to achive differnt looks:
 
+#### verital stacking of content in cards that are on seperate lines
+- `bullet-cards--vertical`
+
 #### alignment of cards
 
 - `bullet-cards--centered`
