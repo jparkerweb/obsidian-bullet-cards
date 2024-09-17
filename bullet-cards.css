@@ -76,6 +76,23 @@
     opacity: .5;
 }
 
+/* --------------------------- */
+/* -- vertical bullet-cards -- */
+/* --------------------------- */
+.bullet-cards.bullet-cards--vertical li {
+    flex-flow: wrap;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 20px;
+}
+
+/* Ensure that text after the first br starts a new line */
+.bullet-cards li br + * {
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+}
+
 /* --------------- */
 /* -- modifiers -- */
 /* --------------- */
