@@ -1,4 +1,7 @@
 # ⏹ Obsidian Bullet Cards
+
+<img src="https://github.com/jparkerweb/obsidian-bullet-cards/blob/main/obsidian-bullet-cards.jpg?raw=true" alt="banner">
+
 css snippet to render bulleted list items as cards in Reading View (live preview not supported)
 
 ---
