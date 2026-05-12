@@ -4,6 +4,11 @@
 
 css snippet to render bulleted list items as cards in Reading View (live preview not supported)
 
+### Maintained by
+<a href="https://www.equilllabs.com">
+  <img src="https://raw.githubusercontent.com/jparkerweb/eQuill-Labs/refs/heads/main/src/static/images/logo-text-outline.png" alt="eQuill Labs" height="40">
+</a>
+
 ---
 
 ## Example Usage
